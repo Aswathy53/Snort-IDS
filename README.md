@@ -36,3 +36,38 @@ The project was implemented in a virtual lab environment using the following tec
 - Kali Linux was used to generate test network traffic.
 - Snort monitored traffic through the Ubuntu network interface.
 - Custom rules were used to generate alerts for selected traffic patterns.
+
+## 4. Custom Snort Detection Rules
+
+Five custom detection rules were created and tested during the lab implementation.
+
+| SID | Detection | Description |
+|---|---|---|
+| 1000001 | ICMP Traffic | Detects ICMP packets such as ping traffic. |
+| 1000002 | HTTP Traffic | Detects traffic directed to HTTP port 80. |
+| 1000003 | TCP SYN Traffic | Detects TCP SYN packets. |
+| 1000004 | SYN Scan Detection | Uses thresholding to identify repeated SYN traffic. |
+| 1000005 | UDP Port 53 Traffic | Detects UDP traffic directed to port 53. |
+
+### Rule Testing
+
+The custom rules were validated using Snort's configuration testing option.
+
+```bash
+sudo snort -T -c /home/aswathy/local.rules -i enp0s3
+```
+
+The configuration validation completed successfully.
+
+### Testing Tools
+
+- Kali Linux: Used to generate test traffic.
+- Snort IDS: Monitored network traffic and generated alerts.
+
+### Observed Results
+
+- ICMP traffic detection was tested.
+- HTTP traffic detection was tested.
+- TCP SYN traffic detection was tested.
+- Repeated TCP SYN traffic was tested for threshold-based detection.
+- UDP traffic sent to destination port 53 successfully triggered the DNS traffic alert rule.
