@@ -86,7 +86,7 @@ The following screenshots demonstrate Snort IDS configuration, rule validation, 
 ![ICMP Detection](Screenshots/icmp-detection.png)
 
 ### 4. HTTP Detection
-![HTTP Detection](screenshots/http%20detection.png)
+![HTTP Detection](Screenshots/http%20detection.png)
 
 ### 5. TCP SYN Detection
 ![TCP SYN Detection](Screenshots/tcp-syn-detection.png)
