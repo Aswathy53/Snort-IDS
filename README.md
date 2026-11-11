@@ -77,13 +77,13 @@ The configuration validation completed successfully.
 The following screenshots demonstrate Snort IDS configuration, rule validation, and detection of different types of network traffic.
 
 ### 1. Snort Version
-![Snort Version](Screenshots/snort-version.png)
+![Snort Version](Screenshots/01-snort-version.png)
 
 ### 2. Rule Validation
-![Rule Validation](Screenshots/rule-validation.png)
+![Rule Validation](Screenshots/02-rule-validation.png)
 
 ### 3. ICMP Ping Detection
-![ICMP Detection](Screenshots/icmp-detection.png)
+![ICMP Detection](Screenshots/03-icmp-detection.png)
 
 ### 4. HTTP Detection
 ![HTTP Detection](Screenshots/http%20detection.png)
