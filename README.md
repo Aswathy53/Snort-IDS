@@ -71,3 +71,25 @@ The configuration validation completed successfully.
 - TCP SYN traffic detection was tested.
 - Repeated TCP SYN traffic was tested for threshold-based detection.
 - UDP traffic sent to destination port 53 successfully triggered the DNS traffic alert rule.
+
+- ## Project Demonstration
+
+The following screenshots demonstrate Snort IDS configuration, rule validation, and detection of different types of network traffic.
+
+### 1. Snort Version
+![Snort Version](screenshots/snort-version.png)
+
+### 2. Rule Validation
+![Rule Validation](screenshots/rule-validation.png)
+
+### 3. ICMP Ping Detection
+![ICMP Detection](screenshots/icmp-detection.png)
+
+### 4. HTTP Detection
+![HTTP Detection](screenshots/http-detection.png)
+
+### 5. TCP SYN Detection
+![TCP SYN Detection](screenshots/tcp-syn-detection.png)
+
+### 6. UDP Port 53 Detection
+![UDP Detection](screenshots/UDP_port53-detection.png)
