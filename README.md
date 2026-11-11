@@ -92,4 +92,4 @@ The following screenshots demonstrate Snort IDS configuration, rule validation, 
 ![TCP SYN Detection](Screenshots/tcp-syn-detection.png)
 
 ### 6. UDP Port 53 Detection
-![UDP Detection](Screenshots/UDP port53 detection.png)
+![UDP Detection](Screenshots/UDPport53detection.png)
