@@ -83,13 +83,13 @@ The following screenshots demonstrate Snort IDS configuration, rule validation, 
 ![Rule Validation](Screenshots/rule%20validation.png)
 
 ### 3. ICMP Ping Detection
-![ICMP Detection](Screenshots/03-icmp-detection.png)
+![ICMP Detection](Screenshots/icmp%20detection.png)
 
 ### 4. HTTP Detection
 ![HTTP Detection](Screenshots/http%20detection.png)
 
 ### 5. TCP SYN Detection
-![TCP SYN Detection](Screenshots/tcp-syn-detection.png)
+![TCP SYN Detection](Screenshots/tcp%20syn%20detection.png)
 
 ### 6. UDP Port 53 Detection
-![UDP Detection](Screenshots/UDPport53detection.png)
+![UDP Detection](Screenshots/UDP%20port53%20detection.png)
